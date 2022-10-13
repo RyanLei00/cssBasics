@@ -1,0 +1,22 @@
+#table{
+    padding: 10px;
+    border-collapse: collapse;
+}
+
+.head{
+    background-color: #427fef;
+}
+
+.head th{
+    color:white;
+    background-color: #427fef;
+}
+
+#table tr{
+    padding: 10px;
+}
+
+#table tr:nth-child(odd)
+{
+    background: #c4dcf3 ;
+}
