@@ -1,0 +1,38 @@
+#table{
+    border: 1px solid #c4dcf3;
+    border-spacing: 0;
+    border-collapse: collapse;
+    font-size: larger;
+}
+
+.head th{
+    color:white;
+    background-color: #427fef;
+    padding: 0.5rem 1rem;
+}
+
+tr td {
+    padding: 0.5rem 1rem;
+}
+
+.head:last-of-type th {
+    text-align: left;
+}
+
+#table tr:nth-child(even)
+{
+    background: #c4dcf3 ;
+}
+
+/* 
+Planning the HTML took a bit of time. It took me a bit
+of time deciding how I was going to target each individual
+section. That took me like ~8 minutes.
+
+The CSS was pretty straight forward since we did the 
+Serious Selectors lab so I knew most of commands that I
+was going to use. I forgot to link the stylesheet to the
+CSS file so I did spend like 10 minutes wondering why my
+code wasn't updating. The CSS took me ~20 minutes + 10 minutes
+of decoding.
+*/

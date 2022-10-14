@@ -1,0 +1,15 @@
+#box {
+    height: 300px;
+    width: 300px;
+    background-color:#f57f5b;
+    border-radius: 10px;
+    margin-top: 10px;
+    box-shadow: 12px 12px 2px lightgrey;
+}
+
+/*
+This task was a lot simpler since there was less things
+to adjust. All I had to do was create the box, change the
+color, curve the corner, and add a shadow. This task took
+me ~10 minutes.
+*/
